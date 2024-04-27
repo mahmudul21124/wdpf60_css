@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag, ID and Class Selector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* "*" is a universal selector */
+
+        h1 {color: violet;}
+        p{ text-align: right;}
+        #featured {border: 2px dotted green; padding: 10px; text-align: left;}
+        /* "id" selector can be used one time only at a page */
+        .article {border: 2px double red; padding: 10px; text-align: justify; background-color: greenyellow;}
+        /* "class" selector can be used multiple time at a page */
+
+        div p {text-align: justify; background-color: blue; color: antiquewhite; line-height: 20px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Tag selector</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo non rerum ipsum voluptatem libero earum, aspernatur voluptatibus quia architecto optio.</p><hr>
+    <h1>ID Selector</h1>
+    <p id="featured">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil voluptatum ad fugiat quos ea voluptatibus laboriosam ex, incidunt sunt. Sit!</p><hr>
+    <!-- "id" can be used one time only at a page -->
+    <h1>Class Selector</h1>
+    <p class="article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam voluptatum ea expedita veritatis inventore temporibus ratione possimus minima pariatur necessitatibus.</p><hr>
+    <!-- "class" can be used multiple time at a page -->
+    <h1>Nested Selection</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quaerat!</p>
+    </div>
+    
+</body>
+</html>

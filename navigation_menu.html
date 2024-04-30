@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Menu</title>
+    <style>
+        /* to remove bullet, square, circle etc , you have to use "list-style-type"*/
+        /* to remove or add space from left, you have to use "margin" & "padding" */
+       .first ul {list-style-type: none;
+        margin: 0px;
+        padding: 0px;}
+
+       /* to remove underline from text, you have to use "text-decoration" */
+       .first ul li a {text-decoration: none;
+        width: 70px;
+        background-color: aquamarine;
+        display: block;
+        padding: 8px 16px;}
+
+        /* to make hover, you have to use "a:hover" */
+        .first ul li a:hover{
+            background-color: rgb(84, 84, 193);
+            color: wheat;
+        }
+
+        /* to use active link, you have to make a class in ancor(a) then you have to select that class by (.) in sytle tag */
+        .first ul li a.active{
+                background-color: rgb(202, 47, 220);
+        }
+        
+        .second ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(83, 100, 46);
+            height: 25px;}
+
+        .second ul li a{
+            text-decoration: none;
+            color: bisque;
+            padding: 10px;}
+
+        .second ul li{ 
+            display: inline;}
+
+        .second ul li a:hover{
+            color: rgb(190, 20, 29);}
+
+    </style>
+</head>
+<body>
+    <h3>Vertical Menu</h3>
+    <div class="first">
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>  <hr>
+
+
+    <h3>Horizontal Menu</h3>
+    <div class="second">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>

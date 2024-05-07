@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        input:required{
+            background-color: rgba(0, 255, 255, 0.378);
+        }
+        input[type="url"]:optional{
+            background-color: rgb(203, 168, 168);
+        }
+        input:valid{
+            background-color: green;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" name="fullname" placeholder="Enter your Name" required><br><br>
+        <input type="text" name="father" placeholder="Enter father Name" ><br><br>
+        <input type="url" placeholder="Enter website">
+    </form>
+    
+</body>
+</html>

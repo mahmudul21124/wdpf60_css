@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        p:first-child {
+            color: blue;
+        }
+        p:last-child{
+            color: rgb(9, 250, 25);
+        }
+        p:only-child{
+            color: red;
+        }
+        /* if the only child sits on last, it will take over */
+
+        li:nth-child(3){
+            background-color: green;
+            color: rgb(253, 242, 23);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <p>This is first paragraph inside Body tag</p>
+        <p>This is first paragraph inside Body tag</p>
+        <p>This is first paragraph inside Body tag</p>
+    </div>
+
+    <br><hr><br>
+
+    <div>
+        <p>This is first paragraph inside Div tag</p>
+        <p>This is first paragraph inside Div tag</p>
+        <p>This is first paragraph inside Div tag</p>
+    </div>
+
+    <div>
+        <p>This is first paragraph inside Div tag</p>
+    </div>
+
+    <br><hr><br>
+
+    <ul>
+        <li>Bangladesh</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>Sri Lanka</li>
+    </ul>
+    <hr>
+
+    <ol>
+        <li>Bangladesh</li>
+        <li>Canada</li>
+        <li>Australia</li>
+        <li>Sri Lanka</li>
+    </ol>
+
+</body>
+</html>

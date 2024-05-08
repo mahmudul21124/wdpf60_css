@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+#wrapper {
+    width: 1050px;
+    
+    margin: 0 auto;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.banner {
+    height: 80px;
+    background-color: rgba(138, 132, 124, 0.802);
+    padding: 30px;
+}
+
+.banner h1{
+    text-align: center;
+}
+
+.brand {
+    background-image: url(../images/logo3.png);
+    width: 120px;
+    height: 70px;
+    position: absolute;
+}
+
+.search {
+    position: absolute;
+    right: 450px;
+}
+
+.navbar {
+    height: 20px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar ul li a:link {
+    color: rgba(215, 129, 129, 0.838);
+}
+
+ul li a:hover {
+    background-color: rgb(165, 46, 42);
+}
+
+.leftbar {
+    float: left;
+    width: 20%;
+    border-right: 1px solid;
+    
+    padding: 40px;
+    background-color: rgba(8, 212, 56, 0.339);
+    line-height: 40px;
+}
+
+.content {
+    float: left;
+    width: 69%;
+    padding: 15px;
+    background-color: rgba(244, 225, 20, 0.63);
+    
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: bisque;
+    height: 30px;
+    padding-top: 20px;
+}

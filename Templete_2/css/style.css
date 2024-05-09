@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(225, 195, 195);
+}
+#wrapper {
+    border: 1px solid rgb(13, 13, 13);
+    width: 1200px;
+    
+    margin: 0 auto;
+}
+.banner {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: dodgerblue;
+   
+}
+
+.logo {
+    background-image: url(../image/tmnt.png);
+    width: 165px;
+    height: 100px;
+}
+
+.title{
+    color: greenyellow;
+}
+
+.search {
+
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(76, 179, 119);
+}
+
+.navbar div {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.17);
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+}
+
+.leftmenu {
+    width: 29%;
+    border-right: 1px dotted;
+    line-height: 50px;
+    padding: 40px;
+}
+
+.content {
+    line-height: 25px;
+    width: 70%;
+    margin: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.footer {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+}

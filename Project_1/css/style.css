@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(179, 215, 229);
+    
+    
+}
+
+.banner {
+    background-image: url(../image/4.jpg);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: skyblue;
+    height: 120px;
+}
+
+.logo {
+    background-image: url(../image/logo.png);
+    height: 80px;
+    width: 80px;
+    background-repeat: no-repeat;
+}
+
+.Title {
+    color: rgba(255, 5, 5, 0.989);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.info {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbar {
+    background-color: rgba(172, 255, 47, 0.66);
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: space-around;
+    width: 1050px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    padding: 8px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1050px;
+    height: 850px;
+    background-color: rgba(127, 255, 212, 0.299);
+    
+}
+
+.leftside {
+    width: 68%;
+    float: left;
+}
+
+.leftside h2 {
+    margin-left: 8px;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.minicontainer {
+    margin: 20px;
+    
+}
+
+b {
+    color: red;
+}
+
+.sir {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.sir img {
+    float: left;
+    border: 1px solid red;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.rightside {
+    width: 28%;
+    float: right;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.footer {
+    padding: 30px;
+    background-color: rgba(9, 58, 144, 0.602);
+    
+}
+
+.wrapper_footer {
+    margin: 0 auto;
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+}
+
+.wrapper_footer div a {
+    color: gold;
+    padding: 5px 10px
+}
+
+.wrapper_footer2 {
+    margin: 0 auto;
+    width: 1050px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+#wrapper_r {
+    margin: 0 auto;
+    border: 1 px;
+    width: 1050px;
+    background-color: rgba(238, 237, 223, 0.769);
+    border-radius: 50px;
+}
+
+
+.form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 30px;
+    line-height: 35px;
+    font-size: 25px;
+}
+.form fieldset {
+    padding: 20px;
+}
+
+.form form input {
+    
+    height: 30px;
+}
+
+#wrapper_t {
+    margin: 0 auto;
+    border: 1px;
+    width: 1050px;
+    border-radius: 40px;
+    background-color: rgba(226, 228, 84, 0.583);
+}
+
+.table {
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    
+}
+
+th,td {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    height: 650px;
+    width: 800px;
+    text-align: center;
+}
+#wrapper_about {
+    margin: 0 auto;
+    width: 1050px;
+    padding: 60px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 23px;
+}
+
+.a {
+    text-align: center;
+}
+
+.a2 {
+    background-color: rgba(159, 237, 145, 0.729);
+    border: 1px;
+    border-radius: 100px;
+    padding: 50px;
+}
+
+#wrapper_contact {
+    margin: 0 auto;
+    width: 1050px;
+    padding: 40px;
+}
+
+.c {
+    text-align: center;
+}
+
+.massage {
+    width: 500;
+    background-color: rgba(105, 250, 221, 0.351);
+    font-size: 30px;
+    border-radius: 100px;
+    padding: 50px;
+}
+.massage form {
+    width: 400px;
+    line-height: 50px;
+}
+
+.massage form input {
+    width: 400px;
+    height: 40px;
+}

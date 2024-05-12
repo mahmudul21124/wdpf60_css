@@ -38,7 +38,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(172, 255, 47, 0.66);
+    background-color: rgba(77, 157, 189, 0.66);
 }
 
 .wrapper1 {
@@ -49,12 +49,16 @@ body {
     padding: 10px;
 }
 
+.wrapper1 a {
+    color: rgb(248, 255, 250);
+}
+
 a {
     text-decoration: none;
 }
 
 a:hover {
-    background-color: white;
+    background-color: rgb(121, 95, 95);
     padding: 8px;
 }
 
@@ -62,14 +66,17 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
     width: 1050px;
-    height: 850px;
-    background-color: rgba(127, 255, 212, 0.299);
+    height: 1020px;
+    background-color: white;
+    line-height: 30px;
+    font-size: 18px;
     
 }
 
 .leftside {
-    width: 68%;
+    width: 70%;
     float: left;
+    
 }
 
 .leftside h2 {
@@ -106,7 +113,9 @@ b {
     width: 28%;
     float: right;
     margin-top: 30px;
+    padding-left: 0px;
     padding: 10px;
+
 }
 
 .footer {
@@ -139,9 +148,11 @@ b {
 #wrapper_r {
     margin: 0 auto;
     border: 1 px;
-    width: 1050px;
-    background-color: rgba(238, 237, 223, 0.769);
-    border-radius: 50px;
+    width: 900px;
+    background-color: rgba(248, 252, 250, 0.315);
+
+    
+    
 }
 
 
@@ -151,22 +162,24 @@ b {
     padding: 30px;
     line-height: 35px;
     font-size: 25px;
+    
 }
 .form fieldset {
-    padding: 20px;
+    padding: 40px;
 }
 
 .form form input {
     
     height: 30px;
+    
 }
 
 #wrapper_t {
     margin: 0 auto;
     border: 1px;
     width: 1050px;
-    border-radius: 40px;
-    background-color: rgba(226, 228, 84, 0.583);
+    
+    background-color: rgba(249, 249, 244, 0.583);
 }
 
 .table {
@@ -195,6 +208,7 @@ table {
     text-align: justify;
     line-height: 30px;
     font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.324);
 }
 
 .a {
@@ -212,6 +226,7 @@ table {
     margin: 0 auto;
     width: 1050px;
     padding: 40px;
+    background-color: rgba(255, 255, 255, 0.488);
 }
 
 .c {
@@ -220,7 +235,7 @@ table {
 
 .massage {
     width: 500;
-    background-color: rgba(105, 250, 221, 0.351);
+    background-color: rgba(220, 228, 66, 0.687);
     font-size: 30px;
     border-radius: 100px;
     padding: 50px;

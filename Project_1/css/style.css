@@ -216,7 +216,7 @@ table {
 }
 
 .a2 {
-    background-color: rgba(159, 237, 145, 0.729);
+    background-color: rgba(159, 237, 145, 0.559);
     border: 1px;
     border-radius: 100px;
     padding: 50px;
@@ -235,7 +235,7 @@ table {
 
 .massage {
     width: 500;
-    background-color: rgba(220, 228, 66, 0.687);
+    background-color: rgba(232, 239, 113, 0.445);
     font-size: 30px;
     border-radius: 100px;
     padding: 50px;
@@ -248,4 +248,14 @@ table {
 .massage form input {
     width: 400px;
     height: 40px;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 5px;
 }
